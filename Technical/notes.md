@@ -20,3 +20,8 @@
 ## Problem 3
 
 ## Problem 4
+
+### Whiteboarding Interview
+
+- meet with an instructor in Lambda
+- scheduled after the assessment
