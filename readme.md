@@ -6,6 +6,7 @@
 3. Review the [Lambda School Concept Summary](https://docs.google.com/document/d/1P8fZjeaQ326PIrOkKy_Jg8s8NDxL503xmzQlqGH7zhs/edit)
 4. Scaffold out Resume
 5. Get [SSL/TSL certificate for portfolio site](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
+   - and also check out [this blog post on SSL certificates](https://medium.com/@victor.leong.17/cheap-wildcard-ssl-certificate-with-aws-route-53-and-certificate-manager-ac922a4af5af)
 
 ## Scheduling Interview
 
