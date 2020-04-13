@@ -9,6 +9,7 @@ Before you just used to have one form factor with the desktop, however as comput
 ## Accessiblity Design Concepts
 
 - some ideas were taken from this [Accessbility presentation by Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8)
+- [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/)
 
 ### Affordances
 
@@ -17,7 +18,10 @@ Before you just used to have one form factor with the desktop, however as comput
 
 ### Design
 
-- Colors: make sure that the contrast between
+- [Colors: blues can be seen best by those with color blindless](https://usabilla.com/blog/how-to-design-for-color-blindness/)
+  - make sure the contrast between chosen colors is appropriate
+  - fewer different colors in the pallette
+  - patterns and textures are different ways of showing contrast than only color
 - Font Sizes: ???
 
 ### Semantic HTML
@@ -34,3 +38,33 @@ Before you just used to have one form factor with the desktop, however as comput
 
 - Bypass links: table of contents that let those with screenreaders jump to the correct area
 - Accordions: Drop down menu that expands or contracts, progressively disclose portions of content to user
+- Dialogs, Tabs, Combobox, Checkbox, Carousel, etc.
+
+## State Management
+
+- Redux
+
+## Client-side App Security
+
+- don't set innerHTMl, avoid it
+
+## Automated Testing
+
+## Asynchronous Patterns
+
+- originally started with writing multiple callbacks with a lot of nested `if` statements
+-
+- `async` the function
+- `await` the logic that is dependent on others
+
+## Code Organization and Readability
+
+## Data Validation
+
+## Microservices (When and why to use various backend technology)
+
+## Data Persistence
+
+## Error Handling
+
+## Security First Mindset
