@@ -72,20 +72,28 @@ Feel kinda dumb for missing out on visitors, since that is the main revenue sour
 
 **Answer:** `SELECT * ALL FROM ANIMALS WHERE staff_id = 2`
 
-**Conclusion:** Yeah I messed this one up pretty bad several ways, I was too used to using junction tables instead of a JOIN . I guess my SQL was too rusty, and haven't done any review in a while especially since I always relied on an ORM like Knex / Django.
+**Conclusion:** Yeah I messed this one up pretty bad several ways, I was too used to using junction tables instead of a JOIN . I guess my SQL was too rusty, and haven't done any review in a while especially since I always relied on an ORM like Knex / Django. The key was to recognize that you have a joined table since it is a many to many relationship, however from there you JOIN on to the respective animal/staff tables.
+
+**Correct Answer:**
+
+```SQL
+  SELECT staff_name, animal_name
+  from assignments AS a
+  JOIN staff ON a.staff = staff_name
+  JOIN animals ON a.animal_id = animal_name
+  WHERE a.staff_id = 2
+```
+
+assignments is a junction table between staff and animals that keeps track of the relationships, and has two foreign keys pointing back to the `staff` and `animal` tables respectively.
 
 ## Are you familiar with JOIN?
 
-**Answer:**
+**Answer:** _sad JS-ORM noises_
 
-**Conclusion:**
+**Conclusion:** Long story short, since I botched up the previous question, I tried to word it in a way that wasn't embarassing, but it didn't work out.
 
 ## What about LEFTJOIN or RIGHTJOIN?
 
-**Answer:** No clue
+**Answer:** No clue.
 
-**Conclusion:**
-
-## Coding Challenge
-
-## Perfect Square
+**Conclusion:** Same as above.
