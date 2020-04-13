@@ -47,6 +47,7 @@ Before you just used to have one form factor with the desktop, however as comput
 ## Client-side App Security
 
 - don't set innerHTMl, avoid it
+- token based authentication is similar to have a gym membershi pcard
 
 ## Automated Testing
 
